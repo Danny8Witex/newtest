@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+
+.search-container {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.search-p {
+    margin-left: 70px;
+}
+
+input {
+    width: 90%;
+    height: 30px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}

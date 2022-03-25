@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+
+.movies2-section {
+    width: 100%;
+    text-align: left;
+    padding: 0px 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: 'DM Sans';
+}
+
+.movies-scroll {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.movies-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .movies {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+
+.movies-text {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.movies-img {
+    height: 100%;
+    border-radius: 12px;
+}
+
+.movies-div {
+    width:250px;
+    background-color: black;
+    color: white;
+    margin: 0px 10px;
+    height: 300px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+@media only screen and (max-width: 1200px){
+    .movies2-section {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 600px){
+    .movies2-section {
+        text-align: center;
+    }
+}
